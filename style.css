@@ -1,0 +1,52 @@
+#btnAddFolder{
+    border-radius: 5px;
+    background-color: azure;
+    width:200px;
+    margin-left:600px;
+    padding: 20px;
+    cursor: pointer;
+}
+#btnAddFolder:hover{
+    transform: scale(1.02);
+}
+#container{
+    border:1px solid black;
+    padding:10px;
+    margin: 10px;
+    display: flex;
+}
+#divBreadCrumb{
+    border:1px solid black;
+    margin-top: 10px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.path{
+    background-color: gray;
+    color: black;
+    cursor: pointer;
+    padding: 10px; 
+    border-right: 5px solid black;
+
+}
+.path:hover{
+    background-color:white;
+    color: blue;
+    text-decoration: underline;
+}
+.folder{
+    background-color:teal;
+    border-radius: 5px;
+    height:100px;
+    width:100px;
+    padding:10px;
+    margin:10px;
+}
+.folder [action]{
+    text-decoration: underline;
+    cursor: pointer;
+}
+div[purpose=name]{
+    margin-top:50px;
+    color:white;
+}
